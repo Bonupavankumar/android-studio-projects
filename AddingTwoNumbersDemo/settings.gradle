@@ -1,0 +1,2 @@
+rootProject.name = "AddingTwoNumbersDemo"
+include ':app'

@@ -1,0 +1,2 @@
+rootProject.name = "passing_data_bw_activities"
+include ':app'

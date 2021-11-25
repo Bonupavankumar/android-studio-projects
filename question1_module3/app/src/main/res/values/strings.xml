@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">question1_module3</string>
+    <string name="name" />
+    <string name="reg_no" />
+    <string name="email" />
+    <string name="contact" />
+    <string name="address" />
+    <string name="submit" />
+</resources>

@@ -1,0 +1,2 @@
+rootProject.name = "Youtube Downloader App"
+include ':app'

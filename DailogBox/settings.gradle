@@ -1,0 +1,2 @@
+rootProject.name = "DailogBox"
+include ':app'

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Youtube Video Downloader"
+        android:textSize="28sp"
+        android:textColor="#1ADA3A"
+        android:textStyle="italic|bold"
+        android:background="@drawable/bc"
+        android:padding="10dp"
+        android:layout_marginTop="20dp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bc"
+        android:textSize="20sp"
+        android:hint="Enter Video Link"
+        android:inputType="textPersonName"
+        android:textStyle="bold|italic"
+        android:layout_marginTop="20dp"
+        android:padding="10dp"
+        android:id="@+id/link"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:padding="10dp"
+        android:onClick="DownloadMyVideo"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:background="@drawable/bc"
+        android:text="Download"
+        android:textSize="28sp"
+        android:textColor="#13711F"/>
+
+
+
+
+
+
+
+
+</LinearLayout>
